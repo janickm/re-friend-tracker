@@ -245,7 +245,7 @@ export class GuiModel {
 							"icon": "fa-calendar",
 							"color": "pumpkin",
 							"page": "activitiespage", 
-						},						
+						}					
                     ]
                 },
                 {
@@ -269,8 +269,8 @@ export class GuiModel {
                             "color": "blue",
                             "search": true,
                             "data": [ { name: "Anton Amacker" }, { name: "Britta Beavers"} ],
-                            "page": "friendpage", // open friend page
-                        },
+                            "page": "friendpage",
+                        }
                     ]
                 },
                 {
@@ -297,7 +297,7 @@ export class GuiModel {
                             "form": {
                                 "form": "LocationForm"
                             }
-                        },
+                        }
                     ]
                 },
 				{
@@ -314,7 +314,7 @@ export class GuiModel {
 							"form": { 
 								"form": "GroupForm" 
 							}
-						}
+						},
 						{
 							"type": "list",
 							"icon": "fa-weixin",
@@ -328,7 +328,7 @@ export class GuiModel {
 					]
 				},
 				{
-					"id": "friendpage", // single friend page
+					"id": "friendpage",
 					"elementList": [ 
 						{ 
 							"type": "backbutton", 
@@ -360,7 +360,7 @@ export class GuiModel {
 							"form": {
 								"form": "ActivitiesForm"
 							}
-						},
+						}
 					]
 				},
 				{
@@ -377,7 +377,7 @@ export class GuiModel {
 							"form": { 
 								"form": "ActivityForm" 
 							}
-						}
+						},
 						{
 							"type": "list",
 							"icon": "fa-calendar",
@@ -412,7 +412,7 @@ export class GuiModel {
 							"form": {
 								"form": "FriendForm"
 							}
-						},
+						}
 					]
 				}				
             ]
