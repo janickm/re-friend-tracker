@@ -193,7 +193,7 @@ export class GuiModel {
 							"id": "activities",
 							"type": "autocomplete",
 							"name": "Activity",
-							"data": ["Something", "Movie Why Him", "Eating Pizza", "Running Eschenberg"]
+							"data": ["Something", "Movie Why Him", "Eating Pizza", "Running Eschenberg"],
 							"form": "ActivityForm",
 							"width": 2 
 						},						
